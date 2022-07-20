@@ -47,8 +47,81 @@ table {
 	border-spacing: 0;
 }
 
+
+
+
+.container{
+	margin: 0 auto;
+}
+
+
 .mainpic{
     width: 1920px;
-    height: 958px;
+    height: 960px;
     background-image: url(img/banner.png);
+	margin-bottom: 56px;
+}
+h1{
+	font-size: 80px;
+	line-height: 106px;
+	color:white;
+	font-weight: bold;
+}
+h2{
+	color: white;
+}
+.mainpic ul{
+	max-width: 330px;
+	padding-top: 308px;
+	margin: 0 auto;
+}
+.mainpic li{
+	
+    color: white;
+	font-size: 24px;
+	line-height: 36px;
+	padding-top: 40px;
+}
+.mainpic img{
+	padding-right: 16px;
+	width: 60px;
+	height: 60px;
+
+}
+h3{
+	font-size: 64px;
+	line-height: 84px;
+	text-align: center;
+	
+}
+.info ul{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.info li{
+	font-size: 24px;
+	line-height: 42px;
+	text-align: center;
+}	
+.brand{
+	background: #000;
+}
+h4{
+	font-size: 64px;
+	line-height: 84px;
+	text-align: center;
+	color: white;
+}
+.brand p{
+	color: white;
+	font-size: 24px;
+	line-height: 42px;
+	text-align: center;
+}
+.brand ul{
+	display: flex;
+	flex-wrap: wrap;
+	width: 1200px;
+	margin: 0 auto;
 }
